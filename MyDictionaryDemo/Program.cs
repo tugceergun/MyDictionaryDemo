@@ -16,11 +16,13 @@ namespace MyDictionaryDemo
             foreach (int item in costumer.Keys)
             {
                 Console.WriteLine("Key:" +item);
+                //we printed the keys with foreach.
             }
 
             for (int i = 0; i < costumer.Values.Length; i++)
             {
                 Console.WriteLine("item " + (i + 1) + " :" + costumer.Values[i]);
+                //we printed the values with for.
             }
         }
     }
